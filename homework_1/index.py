@@ -11,7 +11,7 @@ import telebot
 MAX_STRING_LENGTH = 140
 SUCCESS_VK_POST = 'Запрос ВК отправлен успешно, код записи: '
 COMMON_VK_ERROR = 'Запрос ВК завершился с ошибкой'
-SUCCESS_TLG_POST = 'Сообщеaние в телеграмм-чат отправлено успешно'
+SUCCESS_TLG_POST = 'Сообщение в телеграмм-чат отправлено успешно'
 COMMON_TLG_ERROR = 'Отправка телеграмм-сообщения завершилась с ошибкой'
 STRING_ERROR = 'Превышен максимальный размер сообщения'
 
@@ -31,6 +31,7 @@ def makeAPIRequests():
     VKpassword = input("Пароль ВК: ")
     statusVK = None
 
+    # Принимаем токен и чат-id для телеграмм
     TLGtoken = input("Введите API-токен бота telegram: ")
     TLGChatId = input("Введите chat_id, куда направить сообщение: ")
     statusTLG = None
