@@ -1,0 +1,3 @@
+vk_api==11.9.0
+pytelegrambotapi==3.7.3
+yapf==pip0.30.0
